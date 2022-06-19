@@ -3,12 +3,13 @@ body{
     margin: 0px;
 }
 
-/*Header css begins*/
+/*Header section css begins*/
 .header {
     background-color: #1F2937;
     padding-left: 14%;
     padding-right: 14%;
     padding-bottom: 7.5%;
+    padding-top: 1%;
 }
 
 .header-nav{
@@ -67,10 +68,10 @@ ul {
     border-radius: 10px;
 }
 
-/*Header css ends*/
+/*Header section css ends*/
 
 
-/*Content css starts*/
+/*Content section css starts*/
 
 
 .content{
@@ -106,5 +107,23 @@ ul {
     border-radius: 20px;
 }
 
+/*Content section css ends*/
 
-/*Content css ends*/
+
+/*Quote section css begins*/
+
+.quote {
+    padding: 5% 20%;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: light;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote p:nth-child(2){
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+}
+/*Quote section css ends*/
