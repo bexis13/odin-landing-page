@@ -1,0 +1,36 @@
+body{
+    font-family: roboto, Arial, Helvetica, sans-serif;
+}
+
+/*Header css begins*/
+.header {
+    background-color: #1F2937;
+}
+
+.header-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+ul { 
+    list-style: none;
+}
+
+.header-nav ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/*Header css ends*/
