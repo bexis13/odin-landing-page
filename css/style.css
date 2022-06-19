@@ -6,8 +6,8 @@ body{
 /*Header css begins*/
 .header {
     background-color: #1F2937;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 14%;
+    padding-right: 14%;
     padding-bottom: 7.5%;
 }
 
@@ -72,9 +72,39 @@ ul {
 
 /*Content css starts*/
 
+
+.content{
+    padding-top: 1.5%;
+    padding-bottom: 7.5%;
+}
+.content>p{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
 .content-cards{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
 }
+
+.card{ 
+    max-width: 200px;
+    height: auto;
+    text-align: center;
+    font-size: 18px;
+    color:rgb(79, 79, 79) ;
+}
+
+.card img{
+    max-width: 200px;
+    height: auto;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
 
 /*Content css ends*/
