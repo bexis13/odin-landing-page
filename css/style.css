@@ -1,23 +1,28 @@
 body{
     font-family: roboto, Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 /*Header css begins*/
 .header {
     background-color: #1F2937;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 7.5%;
 }
 
 .header-nav{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin-bottom: 7.5%;
 }
 
 .logo{
     font-size: 24px;
     color: #F9FAF8;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 ul { 
@@ -31,6 +36,35 @@ ul {
     align-items: center;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+}
+
+
+.header-content p:first-child{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.header-content p:nth-child(2){
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-content button {
+    color: white;
+    background-color: #3882F6;
+    padding: 16px 38px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 10px;
 }
 
 /*Header css ends*/
