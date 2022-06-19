@@ -68,3 +68,13 @@ ul {
 }
 
 /*Header css ends*/
+
+
+/*Content css starts*/
+
+.content-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Content css ends*/
