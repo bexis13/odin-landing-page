@@ -127,3 +127,41 @@ ul {
     font-weight: bold;
 }
 /*Quote section css ends*/
+
+
+/*call-to-action section css begins*/
+
+.callToAction {
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 6.5% 16%; 
+    padding: 2% 2%;
+    padding-top: 1.5%;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+
+.callToAction p:first-child {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 0px; ;
+}
+
+.callToAction p:nth-child(2) {
+    margin-top: 8px; ;
+}
+
+.callToAction button{
+    font-weight: bold;
+    font-size: 24px;
+    border: 2.5px solid #F9FAF8;
+    border-radius: 13px;
+    padding: 10px 40px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+
+/*call-to-action section css ends*/
