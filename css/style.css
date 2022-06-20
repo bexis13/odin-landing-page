@@ -165,3 +165,16 @@ ul {
 }
 
 /*call-to-action section css ends*/
+
+
+/*footer section css starts*/
+
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 45px 0px;
+    font-size: 22px;
+}
+
+/*footer section css ends*/
